@@ -1,5 +1,5 @@
 language: bash
-dist: bionic
+dist: osx
 vm:
   size: x-large
 script:
