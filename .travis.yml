@@ -1,6 +1,6 @@
 language: bash
-os: windows
+os: osx
 vm:
   size: x-large
 script:
-  - 'exit 0'
+  - 'echo ok'
