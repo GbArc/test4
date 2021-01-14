@@ -1,6 +1,6 @@
 language: bash
 os: osx
-vm:
+vmx:
   size: x-large
 script:
   - 'exit 0'
