@@ -1,6 +1,14 @@
-language: bash
-os: osx
+language: node_js
+
+jobs:
+  include:
+    - name: Windows
+      os: win
+
 vm:
-  size: x-large
+  size: large
+
 script:
-  - 'echo ok'
+  - echo 'OK'
+  - sleep 500
+  - echo 'OK'
